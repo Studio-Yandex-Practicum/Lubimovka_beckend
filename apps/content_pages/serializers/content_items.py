@@ -63,6 +63,7 @@ class LinkSerializer(serializers.ModelSerializer):
             "title",
             "description",
             "url",
+            "action_text",
         )
 
 

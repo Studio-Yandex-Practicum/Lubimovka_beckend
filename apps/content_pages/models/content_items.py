@@ -50,6 +50,11 @@ class Link(AbstractItemWithTitle):
         verbose_name="Описание ссылки",
     )
     url = models.URLField()
+    action_text = models.CharField(
+        max_length=50,
+        default="Перейти",
+        verbose_name="Текст на кнопке",
+    )
 
     class Meta:
         verbose_name = "Ссылка с описанием"
