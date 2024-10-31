@@ -2,8 +2,6 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 import pytest
-
-# from django.conf import settings
 from rest_framework.test import APIClient
 
 from apps.afisha.factories import EventFactory, PerformanceFactory, ReadingFactory
